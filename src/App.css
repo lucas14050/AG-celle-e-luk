@@ -1,0 +1,53 @@
+main{
+  width: 100%;
+  height: 100vh;
+  float: left;
+  background: #ccc;
+}
+section{
+  width: 100%;
+  height: 70vh;
+  background: linear-gradient(red 0%,#fff 100%);
+}
+section img{
+  width: 400px;
+  height: auto;
+  margin-left: 35%;
+  margin-top: 10vh;
+}
+footer{
+  width: 100%;
+  height: 30vh;
+  background:linear-gradient(#fff);
+}
+footer small{
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin-top: 4vh;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+#social{
+  width: 60%;
+  height: 15vh;
+  float: left;
+  margin-left: 20%;
+  margin-top: 2vh;
+  background: red;
+  border-radius: 200px;
+}
+.rs{
+  width: 10%;
+  height: auto;
+  aspect-ratio: 1/1;
+  float: left;
+  background: #fff;
+  margin-left: 17%;
+  margin-top: 1vh;
+  border-radius: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
